@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<body>
+
+    <script>
+
+       //  Exercise 1
+       let categories = [ "health","fashion","toys","electronic","tv","sports","watches","motorbikes","homes and lifestyle","devices"]
+       console.log(categories);
+       var products = [ "health","fashion","toys","electronic","tv","sports"]
+       console.log(products);
+;
+
+        //  Exercise  2
+        const str1 = ["apple","banana","orange","grapes"]
+        const str2 = ["abc","def","ghi","jkl"]
+        str1.shift()
+        str2.shift()
+        let str3 = str1.concat(str2)
+        console.log(str3);
+
+        // //  Exercise  3 ascending
+        let arr1 = (a,b) => {
+            return a - b
+        }
+        let numbers = [80, 9, 700, 40, 1, 5, 200];
+        numbers.sort(arr1);
+        console.log(numbers);
+
+        // 3  decending
+        let arr2 = (a,b) => {
+            return b - a
+
+        }
+        let numb = [80, 9, 700, 40, 1, 5, 200];
+        numbers.sort(arr2);
+        console.log(numb);
+
+        // //Exercise 4
+
+        let months = ["jan",'March',"April","Dec"]
+        months [0] = "feb"
+        months.splice(3, 1, "may", "june")
+        console.log(months);
+
+//         // Exercise 5:
+        let joinarr = ["Me","My family"]
+        console.log(joinarr.join(" and "))
+
+
+//         // Exercise 6:
+         for(var i = 3; i <=09; i++) {
+           console.log("Number is between 2 and 10")
+ }
+
+         for(var ia = 11; ia <=19; ia++) {
+         console.log("Number is between 10 and 19")
+ }
+
+          for(var ib = 20; ib <=29; ib++) {
+         console.log("Number is between 19 and 30")
+}
+         console.log("sorry try again")
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
